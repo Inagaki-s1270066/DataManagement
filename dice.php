@@ -2,6 +2,10 @@
 $min = 1;
 $MAX = 6;
 
+echo "What is your name? > ";
+$name = trim(fgets(STDIN));
+echo "Hello, $name ! \n";
+
 echo "Rolling the dice... \n";
 
 $D1 = mt_rand($min,$MAX);
